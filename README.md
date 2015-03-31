@@ -1,6 +1,6 @@
-### Built with Gradle
+# Built with Gradle
 
-_Path:_ http://localhost:8080/jersey/rest/simple
+*Path:* [localhost:8080/jersey/rest/simple](http://localhost:8080/jersey/rest/simple)
 
 ## Create classpath for Eclipse
 `.gradlew eclipse`
