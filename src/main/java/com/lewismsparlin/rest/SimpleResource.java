@@ -14,11 +14,9 @@ public class SimpleResource {
 
   @GET
   @Produces(MediaType.APPLICATION_JSON)
-  public Response sayHello() {
+  public SimpleObject sayHello() {
     SimpleObject object = new SimpleObject("A Name", "A Description");
-    return Response.ok()
-        .entity(new Gson().toJson(object))
-        .build();
+		return object;
   }
 
 }

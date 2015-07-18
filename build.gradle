@@ -13,6 +13,7 @@ dependencies {
     compile 'com.sun.jersey:jersey-server:1.19'
     compile 'com.sun.jersey:jersey-core:1.19'
     compile 'com.sun.jersey:jersey-servlet:1.19'
+    compile 'com.sun.jersey:jersey-json:1.19'
 
 	compile 'com.google.code.gson:gson:2.3.1'
 
